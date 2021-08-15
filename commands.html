@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="assets/tabpic.ico"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <title>CrazyBotSite</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
+    </button>
+    <img src="assets/BotLogo.png" width="50" height="50">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="https://noderneder.github.io/CrazyBotSite-Home/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://noderneder.github.io/CrazyBotSite-Dashboard/">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://crazy-bots-premium-package.tebex.io/">Premium</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://noderneder.github.io/CrazyBotSite-Commands/">Commands</a>
+            </li>
+        </ul>
+</nav>
+<div class="jumbotron text-center bg-transparent">
+    <h1 class="commandstitle">Commands</h1>
+    <p class="lead commandssub">View the commands for CrazyBot.</p>
+    <hr>
+    <input id="myInput" type="text" class="searchbox" placeholder="Search">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="border"></div>
+    <br>
+    <br>
+    <br>
+    <div id="myCmd">
+        <br>
+        <button type="button" class="collapsible">c?help<span> - Help Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?help</p>
+            <p>c?modhelp</p>
+            <p>c?funhelp</p>
+            <p>c?confighelp</p>
+            <p>c?activityhelp</p>
+            <p>c?musichelp</p>
+            <p>c?ghelp</p>
+            <p>c?gamehelp</p>
+            <p>c?trackinghelp</p>
+            <p>c?infohelp</p>
+            <p>c?generalhelp</p>
+            <p>c?premiumhelp</p>
+            <p>c?ownerhelp</p>
+            <p>c?casinohelp</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?modhelp<span> - Moderation Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?ban {mention user}</p>
+            <p>c?kick {mention user}</p>
+            <p>c?clear {amount}</p>
+            <p>c?nuke</p>
+            <p>c?slowmode {time}</p>
+            <p>c?warn {mention user}</p>
+            <p>c?warns {mention user}</p>
+            </p>c?delete-warn {mention user} {amount}</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?funhelp<span> - Fun Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?avatar</p>
+            <p>c?hack</p>
+            <p>c?kill</p>
+            <p>c?8ball</p>
+            <p>c?wanted</p>
+            <p>c?jail</p>
+            <p>c?rip</p>
+            <p>c?math {problem}</p>
+            <p>c?trigger</p>
+            <p>c?shit</p>
+            <p>c?beautiful</p>
+            <p>c?youtube {comment}</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?activityhelp<span> - Voice Activity Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?activity-yt</p>
+            <p>c?activity-poker</p>
+            <p>c?activity-fishing</p>
+            <p>c?activity-betrayal</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?music<span> - Music Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?play {Song}</p>
+            <p>c?lyrics {Song}</p>
+            <p>c?loop</p>
+            <p>c?skip</p>
+            <p>c?shuffle</p>
+            <p>c?volume</p>
+            <p>c?queue</p>
+            <p>c?stop</p>
+            <p>c?pause</p>
+            <p>c?connect</p>
+            <p>c?disconnect</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?gamehelp<span> - Games Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?rps</p>
+            <p>c?tictactoe</p>
+            <p>c?snake</p>
+            <p>c?trivia</p>
+            <p>c?country-city</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?trackinghelp<span> - Tracking Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?rank</p>
+            <p>c?top</p>
+            <p>c?message</p>
+            <p>c?invite</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?generalhelp<span> - General Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?helpme</p>
+            <p>c?ping</p>
+            <p>c?poll</p>
+            <p>c?feedback</p>
+            <p>c?ticket</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?premiumhelp<span> - Premium Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?premium</p>
+            <p>c?setprefix</p>
+            <p>c?verify</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?casinohelp<span> - Economy Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?sign up</p>
+            <p>c?bal</p>
+            <p>c?daily</p>
+            <p>c?shop</p>
+            <p>c?buy</p>
+            <p>c?give-money</p>
+            <p>c?add-money</p>
+            <p>c?dep {amount}</p>
+            <p>c?rob {username}</p>
+            <p>c?coinflip</p>
+            <p>c?slots</p>
+            <p>c?with {amount}</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?confighelp<span> - Configuration Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?setup</p>
+            <p>c?setverifychannel</p>
+            <p>c?setstaffrole</p>
+            <p>c?setmemberole</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?ghelp<span> - Giveaway Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?gstart</p>
+            <p>c?reroll</p>
+            <p>c?gcancel</p>
+            <p>c?edit</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?infohelp<span> - Information Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?links</p>
+            <p>c?update</p>
+            <p>c?bot-info</p>
+            <p>c?user-info</p>
+            <p>c?server-info</p>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">c?ownerhelp<span> - Owner Commands</span></button>
+        <div class="content">
+            <h4 style="color: #cccccc;">Usage:</h4>
+            <p>c?serverlist</p>
+            <p>c?eval</p>
+        </div>
+        <br>
+        <br>
+    </div>
+</div>
+</div>
+<div class="footer">
+    <div class="bot-footer">
+        <img src="assets/BotLogo.png" width="50"><br />
+        Copyright © Nadav#3257
+        <br />
+        CrazyBot - So Crazy You Wont Believe
+    </div><br/>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/now-ui-kit.min.js"></script>
+</body>
+</html>
